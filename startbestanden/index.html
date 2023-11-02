@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="index.css"  />
+<title>.....</title>
+
+</head>
+<body>
+ <div class="body">
+  <div class="header">
+        <h1>De Plantenshop</h1>
+        <p> een oefening HTML-CSS voor basis opleiding</p>
+    </div> 
+  <div class="wrapper">
+    <div class="links">
+      <ul> 
+      <li><a href="home.html">Home</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="verzorging.html">Verzorging</a></li>
+      <li><a href="galerij.html">Galerij</a></li>
+      <li><a href="overone.html">Over one</a></li>
+      </ul>
+    </div>
+    <div class="rechts"> 
+      <div>
+       <h2 class="headers"> Online shop</h2>
+      <p class="section-header"> hier uw aankopen</p>
+      <img src="img/flowers_1024_400.jpg" alt=""> 
+      <div class="section-body"> 
+        <h2 class="headers">Zoeken</h2>
+        <p class="section-header">Zoek een plant die past voor uw tuin</p>
+        <form method="post">
+          <div class="form-body">
+            <div class="form-links">
+              <label class="vragen"  for="plantkeuze">Wat zoekt u?</label>
+              <select class="keuzen" name="plantkeuze" id="plantkeuze">
+              <option value=""selected>--kies een categorie--</option>></option>
+              <option value="">bomen</option>
+              <option value="">struiken</option>
+              <option value="">bloemen</option>
+              <option value="">vaste planten</option>
+              </select>
+              <br>
+              <br>
+              <label class="vragen"  for="soortkeuze">Welke bodem?</label>
+              <select class="keuzen" name="soortkeuze" id="plantkeuze">
+              <option value=""selected>--kies een bodemsoort--</option>></option>
+              <option value="">zandig</option>
+              <option value="">klei</option>
+              <option value="">leem</option>
+              <option value="">bosgrond</option>
+              </select>
+              <br>
+              <br>
+              <label class="vragen"  for="Standplaats">Standplaats:</label>
+              <input class="keuzen" type="radio" name="kiesPlaats" id="kiesZn" value="zonnig" >
+              <label for="kiesZn">zonnig</label>
+              <input type="radio" name="kiesPlaats" id="kiesSch" value="halfschaduw">
+              <label for="kiesSch">halfschaduw</label>
+              <input type="radio" name="kiesPlaats" id="kiesWn" value="winter">
+              <label for="kiesWn">winter</label>
+              <br>
+              <br>
+              <label class="vragen" for="seizon">Bloeit in:</label>
+              <label class="keuzen"for="kiesLn">lente</label>
+              <input type="checkbox" name="kiesSeizon" id="kiesLn" value="lente" >
+              <label for="kiesZm">zomer</label>
+              <input type="checkbox" name="kiesSeizon" id="kiesZm" value="zomer" >
+              <label for="kiesHr">herfst</label>
+              <input type="checkbox" name="kiesSeizon" id="kiesHr" value="herfst" >
+              <label for="kiesWn">winter</label>
+              <input type="checkbox" name="kiesSeizon" id="kiesWn" value="winter" >
+              <br>
+              <br>
+              <label><input id="button" type="submit" value="Zoek"></label>  
+            </div>
+            <div class="form-rechts">
+              <br>
+              <label class="vragen"  for="zoekterm">Zoek op naam:</label>
+              <input type="text" name="zoekterm" id="zoekterm" />
+              <input type="hidden" name="searchSetting" id="searchSetting" value="images" />
+              <input type="hidden" name="lang" id="lang" value="nl" />
+              <br>
+            </div>
+            </div>
+        </form>
+      </div>
+    </div>  
+    </div>
+  </div>
+  <div class="footer">
+    <p> &copy Copyright vdab </p>
+  </div>
+</div> 
+</body>
+</html>
